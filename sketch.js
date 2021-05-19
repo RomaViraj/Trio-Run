@@ -37,7 +37,7 @@ function setup() {
 
 	pixelDensity(1);
 
-	if (navigator.userAgent.match(/Android/i)) {
+	if (navigator.userAgent.match(/Android/i)||navigator.userAgent.match(/iPhone/i)) {
 		platform = "mobile";
 	}
 
